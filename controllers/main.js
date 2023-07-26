@@ -27,3 +27,5 @@ getElement("#faces").onclick = () => getAPI('face')
 getElement("#necklaces").onclick = () => getAPI('necklaces')
 getElement("#shoes").onclick = () => getAPI('shoes')
 window.wear = (type,link) => getElement(type).innerHTML = `<img class="product-img" width="100%" src="${link}" alt="" />`
+
+
